@@ -13,15 +13,15 @@ library(lubridate)
 library(ggplot2)
 library(stringr)
 
-###send API creds
+###send API creds-redacted
 
-api_key<-"LPhtPnXiVSXPcrKERvmv7GZ3R"
-api_secret<-"HU38OtKWWCiYX9r3szmK3r81CufP1OgA8TlD7tYbLd3ROtGOkt"
-acess_token<-"452528393-2vy3FkkXYUjpwBtYMihb3NY6n8htfiJY6ARGFNtu"
-acess_token_secret<-"ibViWYEqCyHvSnro04fXgIW0EyyPttqsZQfxSr90m6yyp"
+api_key<-""
+api_secret<-""
+acess_token<-""
+acess_token_secret<-""
 
-owner_id<-"452528393"
-owner<-"L_OHern"
+owner_id<-""
+owner<-""
 setup_twitter_oauth(api_key,api_secret)
 
 ###grab tweets from @USAA_help timeline
